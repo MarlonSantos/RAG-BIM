@@ -1,0 +1,28 @@
+# .gitignore
+
+# Ambiente Virtual Python (Venv)
+.venv/
+venv/
+env/
+ENV/
+
+# Arquivos de links e referências locais
+links.txt
+
+# Ignorar base de dados local (bruta e processada)
+data/raw/
+data/processed/
+data/db/
+
+# Ignorar chaves de API e configurações locais
+.env
+*.local
+
+# Caches do Python e do Banco de Vetores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.chroma/
+.qdrant/
